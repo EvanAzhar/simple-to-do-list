@@ -1,0 +1,66 @@
+body {
+  background-color: #f8f8f8; /* Light gray background color */
+  color: black; /* Text color */
+  font-family: 'Arial', sans-serif; /* Set a font family for better readability */
+  margin: 0; /* Remove default body margin */
+}
+
+#app {
+  max-width: 400px; /* Set a maximum width for the app container */
+  margin: 0 auto; /* Center the app horizontally */
+  padding: 20px;
+}
+
+.header {
+  color: orange; /* Header text color */
+  text-align: center;
+}
+
+.text {
+  color: black; /* Text color */
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: orange; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #e86e00; /* Darker orange on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0;
+}
+
+li {
+  background-color: white; /* List item background color */
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: black; /* Delete button background color */
+  color: white; /* Delete button text color */
+  padding: 5px 10px;
+  margin-left: 5px;
+}
